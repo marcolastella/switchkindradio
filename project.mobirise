@@ -66,11 +66,12 @@
               "font-style": "italic"
             },
             "H1": {
-              "color": "#efefef",
+              "color": "#ffffff",
               "text-align": "left"
             },
             "H3": {
-              "color": "#cccccc"
+              "color": "#cccccc",
+              "text-align": "left"
             }
           },
           "_name": "header9",
