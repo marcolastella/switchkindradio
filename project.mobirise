@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SwitchKind (Tema2)",
-    "currentPage": "index.html",
+    "currentPage": "home.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -10,14 +10,17 @@
     },
     "versionFirst": "4.2.4",
     "uniqCompNum": 5,
-    "versionPublish": "4.3.0"
+    "versionPublish": "4.3.0",
+    "favicon": "@PROJECT_PATH@/assets/images/logo-new-128x128.png",
+    "noImageResize": "",
+    "google-analytics": ""
   },
   "pages": {
-    "index.html": {
+    "home.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "SwitchKind Radio",
+        "meta_descr": "La tua musica un un click!\nTrasmissioni live, eventi ed informazione\nSwitchKind è Rhodense!\n\nASCOLTA LA DIRETTA!",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
