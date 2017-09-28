@@ -1,4 +1,31 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+#menu-u .mbr-brand__name {
+  font-size: 16px;
+}
+#menu-u.mbr-navbar--stuck .mbr-navbar__section {
+  background: #efefef;
+}
+#menu-u .mbr-navbar__hamburger {
+  color: #cccccc;
+}
+#content5-w .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #1c1c1c;
+}
+#content5-w .mbr-header .mbr-header__subtext {
+  text-align: center;
+  color: #fff;
+}
+#content5-w .mbr-article {
+  color: #fff;
+}
+#content5-w .mbr-article P {
+  color: #1c1c1c;
+  text-align: center;
+}
+#features1-x P {
+  text-align: center;
+}
 
 #menu-e .mbr-brand__name {
   font-size: 16px;
@@ -69,31 +96,4 @@
 }
 #msg-box4-t .mbr-article {
   color: #ffffff;
-}
-#menu-u .mbr-brand__name {
-  font-size: 16px;
-}
-#menu-u.mbr-navbar--stuck .mbr-navbar__section {
-  background: #efefef;
-}
-#menu-u .mbr-navbar__hamburger {
-  color: #cccccc;
-}
-#content5-w .mbr-header .mbr-header__text {
-  text-align: center;
-  color: #1c1c1c;
-}
-#content5-w .mbr-header .mbr-header__subtext {
-  text-align: center;
-  color: #fff;
-}
-#content5-w .mbr-article {
-  color: #fff;
-}
-#content5-w .mbr-article P {
-  color: #1c1c1c;
-  text-align: center;
-}
-#features1-x P {
-  text-align: center;
 }
