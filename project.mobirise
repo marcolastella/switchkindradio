@@ -11,9 +11,9 @@
         "#333333"
       ]
     },
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/logo-new-128x128-2.png",
     "noImageResize": "",
-    "google-analytics": "",
+    "google-analytics": "<!-- Global Site Tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-106989093-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments)};\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-106989093-1');\r\n</script>\r\n",
     "versionFirst": "4.3.0",
     "uniqCompNum": 38,
     "versionPublish": "4.3.0",
