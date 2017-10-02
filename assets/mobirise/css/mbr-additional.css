@@ -80,6 +80,21 @@
 #menu-1t .mbr-navbar__hamburger {
   color: #cccccc;
 }
+#menu-24 .mbr-brand__name {
+  font-size: 16px;
+}
+#menu-24.mbr-navbar--stuck .mbr-navbar__section {
+  background: #efefef;
+}
+#menu-24 .mbr-navbar__hamburger {
+  color: #cccccc;
+}
+#header1-26 H1 {
+  color: #ffffff;
+}
+#header1-26 P {
+  color: #ffffff;
+}
 
 #menu-e .mbr-brand__name {
   font-size: 16px;
@@ -149,20 +164,5 @@
   color: #ffffff;
 }
 #msg-box4-t .mbr-article {
-  color: #ffffff;
-}
-#menu-24 .mbr-brand__name {
-  font-size: 16px;
-}
-#menu-24.mbr-navbar--stuck .mbr-navbar__section {
-  background: #efefef;
-}
-#menu-24 .mbr-navbar__hamburger {
-  color: #cccccc;
-}
-#header1-26 H1 {
-  color: #ffffff;
-}
-#header1-26 P {
   color: #ffffff;
 }
