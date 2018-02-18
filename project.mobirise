@@ -12,21 +12,26 @@
         "#c6e9e2"
       ]
     },
-    "favicon": "@PROJECT_PATH@/assets/images/logo-new-128x128-2.png",
+    "favicon": "@PROJECT_PATH@/assets/images/logo-nero-copia-mail-128x85.png",
     "noImageResize": "",
     "google-analytics": "<!-- Global Site Tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-106989093-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments)};\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-106989093-1');\r\n</script>\r\n",
     "versionFirst": "4.3.0",
-    "uniqCompNum": 81,
-    "versionPublish": "4.3.0",
+    "uniqCompNum": 86,
+    "versionPublish": "4.6.5",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "siteUrl": "http://switchkindradio.com",
+    "sitemapSwitcherAuto": "on",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "",
+    "sitemapSwitcher": "on"
   },
   "pages": {
     "radio.html": {
       "settings": {
         "meta_descr": "Crediamo nella condivisione degli spazi, nella accrescimento delle abilità personali e lo sviluppo delle potenzialità del gruppo.\n\nPer questo ogni giorno lavoriamo per rendere unica l'esperienza dell'ascoltatore guidati da ciò che rende unico il nostro progetto, la passione.",
         "title": "Radio",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -45,15 +50,15 @@
           "_params": {
             "logo": false,
             "showBrand": false,
-            "showButtons": false,
+            "showButtons": true,
             "sticky": true,
             "collapsed": false,
             "transparent": true,
             "color": "#efefef",
             "hamburgerColor": "#cccccc"
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"radio.html\"><span class=\"mbri-wifi mbr-iconfont mbr-iconfont-btn\"></span>RADIO</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"musica.html\"><span class=\"mbri-music mbr-iconfont mbr-iconfont-btn\"></span>MUSICA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"video.html\"><span class=\"mbri-video mbr-iconfont mbr-iconfont-btn\"></span>VIDEO</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"eventi.html\"><span class=\"mbri-alert mbr-iconfont mbr-iconfont-btn\"></span>EVENTI</a></li> ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"radio.html\"><span class=\"mbri-wifi mbr-iconfont mbr-iconfont-btn\"></span>RADIO</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"musica.html\"><span class=\"mbri-music mbr-iconfont mbr-iconfont-btn\"></span>MUSICA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"video.html\"><span class=\"mbri-video mbr-iconfont mbr-iconfont-btn\"></span>VIDEO</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"eventi.html\"><span class=\"mbri-alert mbr-iconfont mbr-iconfont-btn\"></span>EVENTI</a></li>  ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"http://87.117.197.33:25401/stream \" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-play mbr-iconfont mbr-iconfont-btn-parent\"></span>ASCOLTA IN DIRETTA</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -81,7 +86,7 @@
           "_styles": {
             ".mbr-header .mbr-header__text": {
               "text-align": "center",
-              "color": "#ffffff"
+              "color": "#1c1c1c"
             },
             ".mbr-header .mbr-header__subtext": {
               "text-align": "center",
@@ -91,7 +96,7 @@
               "color": "#ffffff"
             },
             ".mbr-article P": {
-              "color": "#ffffff",
+              "color": "#333333",
               "text-align": "center"
             }
           },
@@ -104,7 +109,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-1618x1080.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-38-1620x1080.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -114,11 +119,11 @@
             },
             "darkBackground": true,
             "overlay": true,
-            "overlayColor": "#1c1c1c",
-            "overlayOpacity": "0.1"
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.6"
           },
           "title": "L'ESSENZA",
-          "text": "<p>Crediamo nella condivisione degli spazi, nella accrescimento delle abilità personali e lo sviluppo delle potenzialità del gruppo.</p><p>Per questo ogni giorno lavoriamo per rendere unica l'esperienza dell'ascoltatore guidati da ciò che rende unico il nostro progetto, la passione.</p>",
+          "text": "<p>Crediamo nella condivisione degli spazi, nell'accrescimento delle abilità personali e lo sviluppo delle potenzialità del gruppo.</p><p>Per questo ogni giorno lavoriamo per rendere unica l'esperienza dell'ascoltatore guidati da ciò che rende unico il nostro progetto, la passione.</p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
           "_tags": [
             "Theme"
@@ -476,7 +481,7 @@
       "settings": {
         "meta_descr": "La nostra musica, le playlist, e tante novità da scoprire.",
         "title": "Musica",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -495,15 +500,15 @@
           "_params": {
             "logo": false,
             "showBrand": false,
-            "showButtons": false,
+            "showButtons": true,
             "sticky": true,
             "collapsed": false,
             "transparent": true,
             "color": "#efefef",
             "hamburgerColor": "#cccccc"
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"radio.html\"><span class=\"mbri-wifi mbr-iconfont mbr-iconfont-btn\"></span>RADIO</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"musica.html\"><span class=\"mbri-music mbr-iconfont mbr-iconfont-btn\"></span>MUSICA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"video.html\"><span class=\"mbri-video mbr-iconfont mbr-iconfont-btn\"></span>VIDEO</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"eventi.html\"><span class=\"mbri-alert mbr-iconfont mbr-iconfont-btn\"></span>EVENTI</a></li> ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"radio.html\"><span class=\"mbri-wifi mbr-iconfont mbr-iconfont-btn\"></span>RADIO</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"musica.html\"><span class=\"mbri-music mbr-iconfont mbr-iconfont-btn\"></span>MUSICA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"video.html\"><span class=\"mbri-video mbr-iconfont mbr-iconfont-btn\"></span>VIDEO</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"eventi.html\"><span class=\"mbri-alert mbr-iconfont mbr-iconfont-btn\"></span>EVENTI</a></li>  ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"http://87.117.197.33:25401/stream \" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-play mbr-iconfont mbr-iconfont-btn-parent\"></span>ASCOLTA IN DIRETTA</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -744,7 +749,7 @@
       "settings": {
         "meta_descr": "Rimani aggiornato sugli eventi ed i prossimi appuntamenti.",
         "title": "Eventi",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -763,15 +768,15 @@
           "_params": {
             "logo": false,
             "showBrand": false,
-            "showButtons": false,
+            "showButtons": true,
             "sticky": true,
             "collapsed": false,
             "transparent": true,
             "color": "#efefef",
             "hamburgerColor": "#cccccc"
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"radio.html\"><span class=\"mbri-wifi mbr-iconfont mbr-iconfont-btn\"></span>RADIO</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"musica.html\"><span class=\"mbri-music mbr-iconfont mbr-iconfont-btn\"></span>MUSICA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"video.html\"><span class=\"mbri-video mbr-iconfont mbr-iconfont-btn\"></span>VIDEO</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"eventi.html\"><span class=\"mbri-alert mbr-iconfont mbr-iconfont-btn\"></span>EVENTI</a></li> ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"radio.html\"><span class=\"mbri-wifi mbr-iconfont mbr-iconfont-btn\"></span>RADIO</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"musica.html\"><span class=\"mbri-music mbr-iconfont mbr-iconfont-btn\"></span>MUSICA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"video.html\"><span class=\"mbri-video mbr-iconfont mbr-iconfont-btn\"></span>VIDEO</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"eventi.html\"><span class=\"mbri-alert mbr-iconfont mbr-iconfont-btn\"></span>EVENTI</a></li>  ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"http://87.117.197.33:25401/stream \" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-play mbr-iconfont mbr-iconfont-btn-parent\"></span>ASCOLTA IN DIRETTA</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -922,7 +927,7 @@
       "settings": {
         "meta_descr": "I  video di switchkindradio.com tutte le playlist, gli artisti e molto altro.",
         "title": "Video",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -941,15 +946,15 @@
           "_params": {
             "logo": false,
             "showBrand": false,
-            "showButtons": false,
+            "showButtons": true,
             "sticky": true,
             "collapsed": false,
             "transparent": true,
             "color": "#efefef",
             "hamburgerColor": "#cccccc"
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"radio.html\"><span class=\"mbri-wifi mbr-iconfont mbr-iconfont-btn\"></span>RADIO</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"musica.html\"><span class=\"mbri-music mbr-iconfont mbr-iconfont-btn\"></span>MUSICA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"video.html\"><span class=\"mbri-video mbr-iconfont mbr-iconfont-btn\"></span>VIDEO</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"eventi.html\"><span class=\"mbri-alert mbr-iconfont mbr-iconfont-btn\"></span>EVENTI</a></li> ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"radio.html\"><span class=\"mbri-wifi mbr-iconfont mbr-iconfont-btn\"></span>RADIO</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"musica.html\"><span class=\"mbri-music mbr-iconfont mbr-iconfont-btn\"></span>MUSICA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"video.html\"><span class=\"mbri-video mbr-iconfont mbr-iconfont-btn\"></span>VIDEO</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"eventi.html\"><span class=\"mbri-alert mbr-iconfont mbr-iconfont-btn\"></span>EVENTI</a></li>  ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"http://87.117.197.33:25401/stream \" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-play mbr-iconfont mbr-iconfont-btn-parent\"></span>ASCOLTA IN DIRETTA</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1082,15 +1087,15 @@
           "_params": {
             "logo": false,
             "showBrand": false,
-            "showButtons": false,
+            "showButtons": true,
             "sticky": true,
             "collapsed": false,
             "transparent": true,
             "color": "#efefef",
             "hamburgerColor": "#cccccc"
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"radio.html\"><span class=\"mbri-wifi mbr-iconfont mbr-iconfont-btn\"></span>RADIO</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"musica.html\"><span class=\"mbri-music mbr-iconfont mbr-iconfont-btn\"></span>MUSICA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"video.html\"><span class=\"mbri-video mbr-iconfont mbr-iconfont-btn\"></span>VIDEO</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"eventi.html\"><span class=\"mbri-alert mbr-iconfont mbr-iconfont-btn\"></span>EVENTI</a></li> ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"radio.html\"><span class=\"mbri-wifi mbr-iconfont mbr-iconfont-btn\"></span>RADIO</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"musica.html\"><span class=\"mbri-music mbr-iconfont mbr-iconfont-btn\"></span>MUSICA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"video.html\"><span class=\"mbri-video mbr-iconfont mbr-iconfont-btn\"></span>VIDEO</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"eventi.html\"><span class=\"mbri-alert mbr-iconfont mbr-iconfont-btn\"></span>EVENTI</a></li>  ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"http://87.117.197.33:25401/stream \" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-play mbr-iconfont mbr-iconfont-btn-parent\"></span>ASCOLTA IN DIRETTA</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1147,9 +1152,9 @@
             "showText": true,
             "showButtons": true,
             "inverse": false,
-            "imageSize": 50,
+            "imageSize": "37",
             "paddingTop": "0",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
@@ -1206,7 +1211,7 @@
           },
           "headerAlign": "left",
           "meta": "By John Smith posted July 30, 2015",
-          "button": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://87.117.197.33:25401/stream\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ON AIR</a>",
+          "button": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://87.117.197.33:25401/stream \" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-play mbr-iconfont mbr-iconfont-btn\"></span>ASCOLTA</a>",
           "_name": "msg-box4",
           "_anchor": "msg-box4-6"
         },
@@ -1228,7 +1233,7 @@
                 "showTitle": true,
                 "title": "IL TEAM",
                 "contentAlign": "right",
-                "text": "SEMPRE RONTO&nbsp;",
+                "text": "SEMPRE &nbsp;PRONTO",
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>",
                 "overlay": true,
                 "overlayOpacity": "0.2"
@@ -1569,7 +1574,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "INSCRIVITI ALLA NEWSLETTER",
+          "title": "ISCRIVITI ALLA NEWSLETTER",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">ISCRIVITI</a>",
           "form": {
             "action": "info@switchkindradio.com",
@@ -1711,7 +1716,7 @@
           },
           "headerAlign": "left",
           "meta": "By John Smith posted July 30, 2015",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SCARICA L'APP</a>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://tunein.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SCARICA L'APP</a>",
           "_name": "msg-box4",
           "_anchor": "msg-box4-t"
         },
