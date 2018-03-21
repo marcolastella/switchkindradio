@@ -1,5 +1,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>http://switchkindradio.com/index.html</loc>
+		<loc>http://switchkind.com/index.html</loc>
+	</url>
+	<url>
+		<loc>http://switchkind.com/Interviste.html</loc>
+	</url>
+	<url>
+		<loc>http://switchkind.com/eventi.html</loc>
+	</url>
+	<url>
+		<loc>http://switchkind.com/conduttori.html</loc>
 	</url>
 </urlset>
